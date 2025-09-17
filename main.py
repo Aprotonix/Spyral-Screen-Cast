@@ -5,6 +5,7 @@ import io
 import time
 import pyautogui
 import argparse
+print("Spyral Screencast v1.0 made by APROTONIX")
 parser = argparse.ArgumentParser()
 parser.add_argument('--port', type=int, default=5000, help='Port to run the server on')
 parser.add_argument('--fps', type=int, default=30, help='Frames per second')
